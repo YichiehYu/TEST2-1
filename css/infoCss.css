@@ -1,0 +1,191 @@
+
+#leftmenuinner {
+position:fixed;
+top:0;
+padding-top:20px; /*調高度*/
+padding-bottom:0;    
+height:100%;
+width:230px ;
+background-color:transparent;
+}
+
+#main {padding:90px}  /* 條間距*/
+
+#mainLeaderboard {height:90px}
+#right {text-align:center;padding:16px 16px 0 0}
+#right a {text-decoration:none}
+#right a:hover {text-decoration:underline}
+#skyscraper {min-height:600px}
+.sidesection {margin-bottom:32px;}
+.bottomad {padding:0 16px 16px 0;float:left;width:auto;}
+
+ #nav_tutorials,#nav_references,#nav_examples{-webkit-overflow-scrolling:touch;overflow:auto;}
+  #nav_tutorials::-webkit-scrollbar,#nav_references::-webkit-scrollbar,#nav_examples::-webkit-scrollbar {width: 12px;}
+  #nav_tutorials::-webkit-scrollbar-track,#nav_references::-webkit-scrollbar-track,#nav_examples::-webkit-scrollbar-track {background:#555555;}
+  #nav_tutorials::-webkit-scrollbar-thumb,#nav_references::-webkit-scrollbar-thumb,#nav_examples::-webkit-scrollbar-thumb {background: #999999;}
+  #nav_tutorials,#nav_references,#nav_examples {
+  display:none;
+  letter-spacing:0;
+  margin-top:44px;
+  }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #72CFD7;
+}
+
+table {
+  
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 3px solid #72CFD7;
+
+    text-align: left;
+    padding: 8px;
+ background-color: white;
+ color:#72CFD7;
+}
+ #leftmenuinnerinner {
+  height:100%;
+  width:100%;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  padding-top:20px;
+  }
+  #main {padding:20px}
+  #mainLeaderboard {height:90px}
+  #right {text-align:center;padding:16px 16px 0 0}
+  #right a {text-decoration:none}
+  #right a:hover {text-decoration:underline}
+  #skyscraper {min-height:600px}
+  .sidesection {margin-bottom:32px;}
+  .bottomad {padding:0 16px 16px 0;float:left;width:auto;}
+
+  div.gallery {  /*圖片框*/
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+  p, h3, h4, h1, h2, h5{
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #72CFD7;
+      font-family:Microsoft JhengHei;
+  }
+
+.font1{
+   color: #72CFD7;
+   font-size: 18px;
+      font-family:Microsoft JhengHei;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+ /*   background-color: #f1f1f1;*/
+    padding: 20px;
+   /* font-family: Arial;*/
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*h1 {*/
+    /*font-size: 50px;*/
+   /* word-break: break-all;*/
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn1 {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}

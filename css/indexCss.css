@@ -1,0 +1,853 @@
+.menu{
+	color: white;
+	background-color: #72CFD7;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	height: 54px;
+	font-size: 30px;
+	z-index: 25;
+	left: 0px;
+}
+
+.font{
+	font-family: "Lucida Console",Courier New,Monospace;
+	font-size: 15px;
+	margin-top: 3px;
+}
+
+header{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	line-height:0;
+	z-index:20;
+	height:60px;
+	background:#fff;
+	border-bottom:1px solid #72CFD7;
+}
+
+.signin{
+	color: #72CFD7;
+	right: 10px;
+	top: 7px;
+	text-align: center;
+	position: fixed;
+}
+
+
+.overlay{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.7);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.mouse{
+	cursor:pointer;
+}
+
+#signinview{
+	width: 400px;
+	height: 250px;
+	text-align: center;
+	border: 1px solid #72CFD7;
+	border-radius: 5px;
+	position: absolute;
+	top: 400%;
+	left: 50%;
+	margin: 0 0 0 -200px;
+	z-index: 30;
+	display: none;
+	background-color: white;
+}
+
+form input{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#signupbtn{
+	text-decoration:none;
+	color: #72CFD7;
+	display: inline-block;
+	margin-left: 120px;
+	font-size: 12px;
+}
+
+.btnright{
+	border-radius: 5px;
+	background-color: #72CFD7;
+	color: white;
+	border-color: #72CFD7;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+
+.btnleft{
+	border-radius: 5px;
+	background-color: #72CFD7;
+	color: white;
+	border-color: #72CFD7;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 20px;
+	margin-top: 100px;
+}
+
+form{
+	margin-bottom: 40px;
+}
+
+#signup{
+	margin-top: 40px;
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+.textview{
+	border: 1px #D0D0D0 solid;
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+#logo{
+	height: 60px;
+	position: fixed;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin: 0 0 0 -75px;
+}
+
+#password{
+	margin-top: 20px;
+}
+
+label{
+	font-family: "Lucida Console",Courier New,Monospace;
+}
+
+#passlabel{
+	margin-left: 25px;
+}
+
+#signoutview{
+	width: 400px;
+	height: 250px;
+	text-align: center;
+	border: 1px solid #72CFD7;
+	border-radius: 5px;
+	position: absolute;
+	top: 400%;
+	left: 50%;
+	margin: 0 0 0 -200px;
+	z-index: 30;
+	display: none;
+	background-color: white;
+}
+
+.svbar{
+	padding-top: 15px;
+	background-color: #72CFD7;
+	height: 15px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+#yesorno{
+	margin-bottom: 60px;
+	margin-top: 75px;
+}
+
+#signupview{
+	width: 0px;
+	height: 0px;
+	text-align: center;
+	border: 1px solid #72CFD7;
+	border-radius: 5px;
+	position: absolute;
+	top: 200%;
+	left: 50%;
+	margin: 0 0 0 -250px;
+	z-index: 30;
+	opacity:0;
+	background-color: white;
+	margin-left: 0px;
+	margin-top: 100px;
+	display: none;
+}
+
+label.fa{
+	font-size: 25px;
+	color: #72CFD7;
+	width: 15px;
+}
+
+#male{
+	margin-right: 20px;
+}
+
+#malelabel{
+	margin-left: 20px;
+}
+
+#signupform{
+	margin-bottom: 90px;
+}
+
+#passlabel1{
+	margin-left: 25px;
+}
+
+#namelabel{
+	margin-left: 25px;
+}
+
+#passlabel2{
+	margin-left: -7px;
+}
+
+#TELlabel{
+	margin-left: -7px;
+}
+
+#birthdaylabel{
+	margin-left: -24px;
+}
+
+#gender{
+	margin-left: -98px;
+}
+
+#clean{
+	margin-right: 20px;
+}
+
+#gnav{
+	position: fixed;
+    width: 266px;
+    height: 100%;
+    z-index: 25;
+    background: #72CFD7;
+    top: 0;
+    left: -266px;
+}
+
+#gnav a{
+	color: white;
+}
+
+#list{
+	text-align: center;
+	width: 200px;
+	height: 400px;
+	margin-left:10px;
+	margin-top: 260px;
+}
+
+.nonelist li{
+	list-style-type: none;
+	display: block;
+	height: 30px;
+	color: white;
+}
+
+#spot{
+	display: none;
+	padding-left: 0px;
+	line-height: 60px;
+}
+
+#group{
+	display: none;
+	padding-left: 0px;
+	line-height: 50px;
+}
+
+#gnav{
+	font-size: 20px;
+	font-family:Microsoft JhengHei;
+}
+
+a{
+	text-decoration:none;
+}
+
+ul span.fa{
+	margin-right: 10px;
+}
+
+._div{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	color: white;
+}
+
+#divouter{
+	position: relative;
+    z-index: 1;
+    padding: 86px 30px 0;
+}
+
+#divleft{
+	margin-bottom:25px;
+	position: fixed;
+	width:68%;
+	height:88%;
+	overflow: hidden;
+	border-radius:14px;
+	border: 1px solid #72CFD7;
+	background-color: white;
+}
+
+#divLeftImg{
+	position: fixed;
+	width:68%;
+	height:88%;
+	border-radius:14px;
+	z-index: 1;
+}
+
+#divright{
+	width: 500px;
+	height: auto;
+    line-height: 0;
+    float: right;
+    overflow: hidden;
+    border-radius:14px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.newhot{
+	width: 122px;
+	height: 122px;
+	margin-bottom: 50px;
+	border-radius:14px;
+	margin-right: 30px;
+	background-color: #72CFD7;
+	display: inline-block;
+}
+
+#newhot{
+	color: #72CFD7;
+	list-style-type: none;
+	text-align: center;
+	font-family: "Lucida Console",Courier New,Monospace;
+	font-size: 25px;
+	padding-left: 0px;
+	margin-bottom: 40px;
+
+}
+
+#new{
+	margin-right: 10px;
+	border-bottom: 2px solid #72CFD7;
+	display: inline-block;
+	margin-right: 20px;
+	width: 200px;
+	height: 20px;
+}
+
+#hot{
+	opacity:0.4;
+	margin-left: 10px;
+	border-bottom: 2px solid #72CFD7;
+	display: inline-block;
+	margin-left: 20px;
+	width: 200px;
+	height: 20px;
+}
+
+#list>ul{
+	color: white;
+	list-style-type: none;
+}
+
+#rightinner{
+	width: 1500px;
+	padding-top: 10px;
+	overflow: auto;
+}
+
+#rightinner>div{
+	display: inline-block;
+	width: 490px;
+	float:left;
+}
+
+.blognewhot{
+	font-family:Microsoft JhengHei;
+	color: #72CFD7;
+	border-bottom: 1px solid #72CFD7;
+	height: 20px;
+	width: 445px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+#mebText{
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+
+.mebPush{
+	width: 80px;
+	height: 80px;
+	border-radius:40px;
+	margin-left: 28px;
+	margin-right: 12px;
+	display: inline-block;
+	margin-bottom: 30px;
+	border: 2px solid #72CFD7;
+}
+
+#actionleft{
+	margin-left: 20px;
+}
+
+#actionleft>div{
+	margin-left: 10px;
+}
+
+#actionright{
+	margin-left: 15px;
+}
+
+#actionright>div{
+	margin-left: 10px;
+}
+
+#change{
+	width: 490px;
+}
+
+#aboutUs{
+	font-family:Microsoft JhengHei;
+	color: #72CFD7;
+	border: 2px solid #72CFD7;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	text-align: center;
+	line-height: 70px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	margin-left: 215px;
+	margin-top: 30px;
+	word-wrap: break-word;
+}
+
+#footer{
+	border-top: 1px solid #72CFD7;
+	margin-top: 72px;
+	width: 600;
+}
+
+#pageTopDiv{
+	text-align: center;
+	font-family: "Lucida Console",Courier New,Monospace;
+	margin-top: 60px;
+	margin-left: 192px;
+	width: 120px;
+}
+
+#pageTop{
+	color: #72CFD7;
+}
+
+#pageTopR{
+	color: #72CFD7;
+	margin-bottom: 10px;
+}
+
+.false{
+	color: red;
+	font-size: 16px;
+	width: 0px;
+	display: none;
+}
+
+#dataWait{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 400%;
+	left: 50%;
+	margin: 0 0 0 -150px;
+	z-index: 35;
+	border: 2px solid #72CFD7;
+	text-align: center;
+	border-radius:14px;
+	background-color: white;
+	color: #72CFD7;
+	font-family:Microsoft JhengHei;
+	font-size: 20px;
+	display: none;
+}
+
+#waitImg{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#ad{
+	position: relative;
+	width: 450px;
+	height: 300px;
+	border: 1px solid #72CFD7;
+	border-radius:14px;
+	margin-left: 24px;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+#adUl{
+	padding: 0;
+	margin:0;
+	list-style: none;
+	position: absolute;
+	width: 9999px;
+	height: 100%
+}
+
+#adUl li{
+	float: left;
+	width: 450px;
+	height: 300px;
+}
+
+.playerControl {
+	margin: 0;
+	margin-right: 150px;
+	list-style: none;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	height: 14px;
+}
+
+.playerControl li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.0);
+	border-radius:5px;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#adUl img{
+	width: 450px;
+	height: 300px;
+}
+
+#mebChange{
+	height: 220px;
+	width: 2480px;
+}
+
+.mebPushBtn{
+	color: #72CFD7;
+	font-size: 25px;
+	position: absolute;
+	top:560px;
+}
+
+#mebPushBtn_R{
+	right: 32px;
+}
+
+#moveCloud_1{
+	position: absolute;
+	top: 350px;
+	left: 550px;
+	width: 150px;
+	height: 70px;
+	z-index: 2;
+}
+
+#moveCloud_2{
+	position: absolute;
+	top: 700px;
+	left: 430px;
+	width: 150px;
+	height: 70px;
+	z-index: 2;
+}
+
+#moveCloud_3{
+	position: absolute;
+	top: 650px;
+	left: 920px;
+	width: 170px;
+	height: 80px;
+	z-index: 2;
+}
+
+#moveCloud_4{
+	position: absolute;
+	top: 20px;
+	left: 1000px;
+	width: 170px;
+	height: 80px;
+	z-index: 2;
+}
+
+#moveCloud_5{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 170px;
+	height: 80px;
+	z-index: 2;
+}
+
+#aboutUsDiv{
+	display: none;
+}
+
+#aboutUs_footer{
+	position: absolute;
+	bottom: 0px;
+}
+
+#aboutUsTitle{
+	text-align: center;
+	font-family:'Nova Round', cursive;
+	font-size: 50px;
+	color: #72CFD7;
+	height: 60px;
+	width: 300px;
+	border-bottom: 2px solid #72CFD7;
+	margin-top: 1%;
+	margin-left: 38.3%;
+}
+
+#aboutUsContent{
+	text-align: center;
+	font-family:Microsoft JhengHei;
+	font-size: 20px;
+	color: #62b2ba;
+	margin-top: 40px;
+}
+
+#emailToUs{
+	text-align: center;
+	font-family:'Nova Round', cursive;
+	font-size: 30px;
+	margin-top: 5%;
+}
+
+#emailToUs a{
+	color: #72CFD7;
+}
+
+#chatIcon{
+	display: inline-block;
+	position: fixed;
+	right: 80px;
+	display: none;
+}
+
+#mebPic{
+	width: 46px;
+	height: 46px;
+	border-radius:23px;
+	background-color: #72CFD7;
+	position: fixed;
+	top: 10px;
+	right: 170px;
+	display: none;
+}
+
+#mebPic>img{
+	width: 46px;
+	height: 46px;
+	border-radius:23px;
+}
+
+#chatView{
+	width:10%;
+	height:910px;
+	border-radius: 5px;
+	border: 2px solid #72CFD7;
+	position: absolute;
+	top: 60px;
+	background-color: white;
+	right: 0px;
+	overflow: hidden;
+	display: none;
+}
+
+#searchBar>span{
+	position: absolute;
+	top: 6px;
+	left: 5px;
+	width: 15%;
+	height: 25px;
+	color: white;
+}
+
+#chatText{
+	position: absolute;
+	top: 3px;
+	right: 0px;
+	height: 25px;
+	width: 85%;
+	border: 1px solid #72CFD7;
+	background-color: #72CFD7;
+	font-size: 16px;
+	color: white;
+	font-family:Microsoft JhengHei;
+	display: inline-block;
+}
+
+/*WebKit和Blink（Safari,Google Chrome, Opera15+）使用伪元素*/
+::-webkit-input-placeholder{ 
+	font-family:Microsoft JhengHei;
+	color: white;
+}
+
+/*Mozilla Firefox 4-18使用伪类*/
+:-moz-placeholder{
+	font-family:Microsoft JhengHei;
+	color: white;
+}
+
+/*Mozilla Firefox 19+ 使用伪元素*/
+:-moz-placeholder{
+	font-family:Microsoft JhengHei;
+	color: white;
+}
+
+/*IE10使用伪类*/
+:-ms-input-placeholder{
+	font-family:Microsoft JhengHei;
+	color: white;
+}
+
+#chatMeb{
+	height: 875px;
+	width: 210px;
+	overflow: hidden;
+	overflow-y: auto;
+	position: relative;
+	left: 0px;
+	right: -17px;
+}
+
+.chatMebPic{
+	width: 36px;
+	height: 36px;
+	border-radius: 18px;
+	position: relative;
+	left: 5px;
+	margin-top: 10px;
+}
+
+.chatMebName{
+	line-height: 2;
+	position: relative;
+	left: 20px;
+	top: -10px;
+	color: #9e9e9e;
+	display: inline-block;
+}
+
+.chatViewLine{
+	font-family:Microsoft JhengHei;
+	height: 15px;
+	width: 82%;
+	border-bottom: 1px solid #72CFD7;
+	color: #72CFD7;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.chatMebs{
+	width: 100%;
+	position: relative;
+	left: 0px;
+	padding-left: 5px;
+}
+
+#aboutMebLeft{
+	position: absolute;
+	width: 30%;
+	height: 100%
+}
+
+#mebImg{
+	border: 2px solid #72CFD7;
+	width: 100%;
+	height: 330px;
+	border-radius: 14px;
+	margin-bottom: 20px;
+	margin-left: -2px;
+	overflow: hidden;
+}
+
+#mebImg img{
+	width: 100%;
+	height: 100%;
+}
+
+#mebInfo1{
+	color: #72CFD7;
+	font-family:Microsoft JhengHei;
+	font-size: 20px;
+	border-bottom: 2px solid #72CFD7;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+#introduction{
+	width: 95%;
+	height: 360px;
+	margin-left: 10px;
+	overflow: hidden;
+	color: #62b2ba;
+	font-family:Microsoft JhengHei;
+}
+
+#mebInfos{
+	font-family:Microsoft JhengHei;
+	margin-left: 10px;
+	line-height: 30px;
+	color: #62b2ba;
+	margin-bottom: 10px;
+}
+
+#aboutMebRight{
+	position: absolute;
+	width: 65%;
+	height: 100%;
+	right: 0px;
+	border: 1px solid #72CFD7;
+}
+
+#mebInfoBar{
+	position: absolute;
+	text-align: center;
+	border-bottom: 1px solid #72CFD7;
+	width: 50%;
+	left: 25%;
+	margin-top: 30px;
+}

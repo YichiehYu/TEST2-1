@@ -1,0 +1,479 @@
+.spotCard{
+	height: 29%;
+	width: 235px;
+	border: 2px solid #bbb;
+	border-radius: 5px;
+	margin-right: 22px;
+	margin-bottom: 45px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.spotImgDiv{
+	height: 70%;
+	width: 100%;
+	overflow:hidden;
+}
+
+.spotName{
+	text-align: center;
+	line-height: 48px;
+	height: 20%;
+	width: 100%;
+	overflow:hidden;
+	border-top: 30px solid #bbb;
+	color: #9e9e9e;
+	font-family:Microsoft JhengHei;
+	font-size: 20px;
+}
+
+#divouter{
+	position: relative;
+    z-index: 1;
+    padding: 86px 30px 0;
+}
+
+#divleft{
+	margin-bottom:25px;
+	position: fixed;
+	width:68%;
+	height:88%;
+	overflow: hidden;
+	background-color: white;
+}
+
+#spotArea{
+	width: 99999px;
+	height:100%;
+}
+
+.spotAraInner{
+	width: auto;
+	height:100%;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+#divright{
+	position: fixed;
+	width: 500px;
+	height: 88%;;
+    line-height: 0;
+    right: 0px;
+    margin-right: 38px;
+    overflow: hidden;
+    border-radius:14px;
+    display: block;
+}
+
+#spotControl{
+	list-style-type: none;
+	font-size: 30px;
+	position: relative;
+	top: 180px;
+	color: #72CFD7;
+	font-family:'Nova Round', cursive;
+}
+
+#spotControlL{
+	display: inline-block;
+	position: relative;
+	left: -20px;
+	width: 100px;
+	height: 20px;
+}
+
+#spotControlR{
+	display: inline-block;
+	position: relative;
+	right: -217px;
+	width: 200px;
+	height: 20px;
+}
+
+#spotPage{
+	list-style-type: none;
+	position: relative;
+	top: 137px;
+	left:123px;
+	text-align: center;
+	width: 230px;
+	padding-left: 0px;
+}
+
+.spotPageNum{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	border: 1px solid #72CFD7;
+	font-size: 6px;
+	text-align: center;
+	line-height: 1.4;
+	color: #9e9e9e;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#spotSeadchArea{
+	width: 100%;
+	height: 70%;
+}
+
+.searchSpotBarDiv{
+	height: 45px;
+	width: 100%;
+	background-color: #72CFD7;
+	border-radius: 22px;
+}
+
+.spotBigDiv{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	display: none;
+}
+
+.spotBigDivInner{
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+/*隱藏滾動條*/
+::-webkit-scrollbar{
+ 	display:none;
+ }
+
+.spotBigIcon{
+	display: none;
+	position: absolute;
+	right: 20px;
+	top: 160px;
+}
+
+#searchSpotBar{
+	height: 8%;
+	width: 10%;
+	text-align: center;
+	padding-top: 9px;
+	font-size: 24px;
+	color: white;
+}
+
+#searchSpotBarText{
+	height: 85%;
+	width: 80%;
+	font-size: 22px;
+	background-color: #72CFD7;
+	border: 1px solid #72CFD7;
+	color: white;
+}
+
+::-webkit-input-placeholder{ 
+	font-family:Microsoft JhengHei;
+	color: white;
+}
+
+/*Mozilla Firefox 4-18使用伪类*/
+:-moz-placeholder{
+	font-family:Microsoft JhengHei;
+	color: white;
+}
+
+/*Mozilla Firefox 19+ 使用伪元素*/
+:-moz-placeholder{
+	font-family:Microsoft JhengHei;
+	color: white;
+}
+
+/*IE10使用伪类*/
+:-ms-input-placeholder{
+	font-family:Microsoft JhengHei;
+	color: white;
+}
+
+.searchSpotSelect{
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+	font-family:Microsoft JhengHei;
+	line-height:45px;
+	font-size: 20px;
+}
+
+.spotUls{
+	list-style-type: none;
+	padding-left: 5px;
+	color: white;
+	font-size: 20px;
+	margin-top: 5px;
+	font-family:Microsoft JhengHei;
+	display: none;
+}
+
+.spotUls li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#spotType{
+	height: 45px;
+	width: 500px;
+}
+
+#spotDetail{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+#detailBake{
+	position: absolute;
+	left: 20px;
+	font-size: 30px;
+	color: #72CFD7;
+}
+
+#detailLove{
+	position: absolute;
+	right: 20px;
+	font-size: 30px;
+	color: #72CFD7;
+}
+
+#bigLove{
+	display: none;
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	font-size: 150px;
+	color: red;
+	height: auto;
+	width: auto;
+	z-index: 10;
+	text-shadow: 3px 3px #cccccc;
+}
+
+#map{
+	position: absolute;
+	top: 430px;
+	border: 1px solid #72CFD7;
+	width: 99.5%;
+	right: 0px;
+	height: 425px;
+	border-radius: 14px;
+	display: none;
+}
+
+#spotdetailCont{
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	margin-left: 65px;
+	vertical-align : middle;
+}
+
+#spotDetailName{
+	position: absolute;
+	height: auto;
+	width: 100%;
+	left: 0px;
+	font-size: 50px;
+	color: #72CFD7;
+	font-family:Microsoft JhengHei;
+	letter-spacing:10px;
+	border-bottom: 2px solid #72CFD7;
+	text-align: center;
+	margin-top: -10px;
+}
+
+.spotInfor{
+	position: absolute;
+	top:80px;
+	left: 635px;
+	color: #72CFD7;
+	font-size: 20px;
+	font-family:Microsoft JhengHei;
+	line-height: 20px;　
+}
+
+.spotInfor div{
+	margin-bottom: 15px;
+	width: 30px;
+}
+
+#spotBlogArea{
+	position: absolute;
+	top:234px;
+	left: 635px;
+	width: 530px;
+	height: 250px;
+}
+
+#linkBlog{
+	color: #72CFD7;
+	font-size: 20px;
+	font-family:Microsoft JhengHei;
+	width: 25%;
+	border-bottom: 2px solid #72CFD7;
+}
+
+#linkBlogCardArea{
+	position: absolute;
+	bottom: 0px;
+	width: 88%;
+	height: 80%;
+	left: 30px;
+	overflow: hidden;
+}
+
+#linkBlogCardAreaBig{
+	height: 100%;
+	width: 5000px;
+	z-index: 1;
+}
+
+.linkBlogCard{
+	position: relative;
+	margin:0px 0px 0px 6px;
+	height: 99%;
+	width: 146px;
+	border: 1px solid #72CFD7;
+	display: inline-block;
+	border-radius: 5px;
+	z-index: 5;
+	overflow: hidden;
+}
+
+.linkBlogImg{
+	position: relative;
+	width: 100%;
+	height: 75%;
+	border-bottom: 1px solid #72CFD7;
+	overflow: hidden;
+}
+
+.linkBlogImg img{
+	width: 100%;
+	height: 100%;
+}
+
+.linkBlogName{
+	position: relative;
+	color: #9e9e9e;
+	height: 24.5%;
+	text-align: center;
+	line-height: 52px;
+	font-family:Microsoft JhengHei;
+	letter-spacing: 3px;
+	z-index: 1;
+}
+
+#linkBlogUl{
+	font-size: 20px;
+	color: #72CFD7;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#spotBlogContrlL{
+	position: absolute;
+	left: 5px;
+	top: 150px;
+}
+
+#spotBlogContrlR{
+	position: absolute;
+	right: 5px;
+	top: 150px;
+	z-index: 5;
+}
+
+#spotDetailWord{
+	position: absolute;
+	bottom: 0px;
+	height: 340px;
+	border-bottom: 2px solid #72CFD7;
+	font-family:Microsoft JhengHei;
+	font-size: 18px;
+	color: #62b2ba;
+}
+
+#spotDetailImg{
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	width: 600px;
+	height: 400px;
+	border-radius: 5px;
+	border: 2px solid #72CFD7;
+	overflow: hidden;
+}
+
+#spotImgUl{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	position: absolute;
+	width: 9999px;
+	height: 100%
+}
+
+.spotImgLi{
+	width: 600px;
+	height: 400px;
+	display: inline-block;
+}
+
+.spotImgLi img{
+	width: 600px;
+	height: 400px;
+	border-radius: 5px;
+}
+
+#spotImgContrlUl{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	height: 20px;
+	width: 120px;
+	position: absolute;
+	bottom: 10px;
+	left: 240px;
+	letter-spacing: 10px;
+}
+
+.spotImgContrlLi{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	border: 1px solid white;
+}
+
+.flex-container{
+	margin-top: 40px;
+	width: 400px;
+	height: auto;
+}
+
+.flex-container li{
+	width: 80px;
+}
+
+.spotBig{
+	width: 500px;
+	height: 45px;
+	background-color: #72CFD7;
+	position: fixed;
+	border-radius: 22px;
+}
+
+#spotsRoadUl li{
+	width: 400px;
+	margin-left: 0px;
+}

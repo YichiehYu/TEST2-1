@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4"
+	>
+
+	<display-name>CA101_G4x</display-name>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>jdbc/TestDB</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+
+	<servlet>
+		<servlet-name>EmpServlet</servlet-name>
+		<servlet-class>com.emp.controller.EmpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmpServlet</servlet-name>
+		<url-pattern>/emp/emp.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeptServlet</servlet-name>
+		<servlet-class>com.dept.controller.DeptServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeptServlet</servlet-name>
+		<url-pattern>/dept/dept.do</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>MemberServletPic</servlet-name>
+		<servlet-class>com.member.controller.MemberServletPic</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MemberServletPic</servlet-name>
+		<url-pattern>/information.do</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	
+	<!-- forTest -->
+	<servlet>
+		<servlet-name>test_controller</servlet-name>
+		<servlet-class>forTest.Test_Controller_EmpServlet</servlet-class>
+	</servlet>
+<!-- 	<servlet> -->
+<!-- 		<description> -->
+<!-- 		</description> -->
+<!-- 		<display-name>MemberServlet</display-name> -->
+<!-- 		<servlet-name>MemberServlet</servlet-name> -->
+<!-- 		<servlet-class>com.member.controller.MemberServlet</servlet-class> -->
+<!-- 	</servlet> -->
+
+	<servlet>
+		<description>
+		</description>
+		<display-name>BlogFavServlet</display-name>
+		<servlet-name>BlogFavServlet</servlet-name>
+		<servlet-class>com.blogfav.controller.BlogFavServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>test_controller</servlet-name>
+		<url-pattern>/forTest/test_emp.do</url-pattern>
+	</servlet-mapping>
+<!-- 	<servlet-mapping> -->
+<!-- 		<servlet-name>MemberServlet</servlet-name> -->
+<!-- 		<url-pattern>/MemberServlet</url-pattern> -->
+<!-- 	</servlet-mapping>	 -->
+	
+			<servlet-mapping>
+		<servlet-name>BlogFavServlet</servlet-name>
+		<url-pattern>/BlogFavServlet</url-pattern>
+	</servlet-mapping>	
+	
+	
+	<servlet>
+		<servlet-name>MemberServlet</servlet-name>
+		<servlet-class>com.member.controller.MemberServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MemberServlet</servlet-name>
+		<url-pattern>/MemberServlet</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>FollowServlet</servlet-name>
+		<servlet-class>com.follow.controller.FollowServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FollowServlet</servlet-name>
+		<url-pattern>/FollowServlet</url-pattern>
+	</servlet-mapping>
+	
+
+</web-app>
